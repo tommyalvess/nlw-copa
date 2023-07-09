@@ -7,7 +7,6 @@ import { AppRoutes } from "./app.routes";
 export function Routes() {
 
     const {user} =  useAuth()
-    console.log(user.name);
     
     return (
         // o box é para evitar bugs na transicao de telas. Usar com o mesmo plano de fundo default das telas
